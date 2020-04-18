@@ -1,6 +1,5 @@
 export const scrollFunc = () => {
 	overrideScrollhander()
-	toggleColor()
 	stickySectionHeader()
 }
 

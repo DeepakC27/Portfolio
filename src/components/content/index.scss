@@ -153,7 +153,7 @@
         div {
           width: 80px;
           height: 3.5px;
-          border: .5px solid white;
+          border: .5px solid black;
           margin-bottom: 30px;
           transition: .5s;
           position: relative;
@@ -161,7 +161,7 @@
             content: '';
             width: 10px;
             height: 10px;
-            border: 1px solid white;
+            border: 1px solid black;
             border-radius: 50%;
             position: absolute;
             top: -3.8px;
@@ -169,7 +169,7 @@
           }
         }
         .active, .active::after {
-          background: white;
+          background: black;
         }
       }
       .project-wrapper {
@@ -224,7 +224,7 @@
   }
 
   #aboutme-section-wrapper {
-    min-height: fit-content;
+    min-height: calc(100vh - 150px);
     .aboutme-container {
       display: flex;
       .about-section_image {
@@ -236,6 +236,7 @@
           border-radius: 50%;
           background-size: cover;
           background-position: 25px;
+          border: 2px solid black;
         }
         // filter: blur(1.5px);
         // transition: 0.5s ease-in;
@@ -256,7 +257,7 @@
       .img-wrapper{
           width: 50px;
           height: 50px;
-          border: 2px solid white;
+          border: 2px solid black;
           border-radius: 5px;
           margin-right: 10%;
           box-shadow: 12px 12px 10px rgba(228, 223, 223, 0.41);
@@ -265,7 +266,7 @@
             content: '';
             width: 8px;
             height: 108%;
-            border: 2px solid white;
+            border: 2px solid black;
             border-radius: 5px;
             position: absolute;
             top: 0.5px;
@@ -276,7 +277,7 @@
             content: '';
             width: 108%;
             height: 8px;
-            border: 2px solid white;
+            border: 2px solid black;
             border-radius: 5px;
             position: absolute;
             bottom: -7px;
@@ -301,6 +302,7 @@
             cursor: pointer;
             border-radius: 5px;
             transform: translate(-10px, -10px);
+            border: 2px solid black;
           }
       }
     }

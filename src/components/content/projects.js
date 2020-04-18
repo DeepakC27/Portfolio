@@ -48,7 +48,7 @@ const ProjectsComponent = () => {
                 React.js, Bootstrap
               </span>
               <br />
-              <Button className='btn-filled'>
+              <Button className='btn-outline'>
                 <span>Visit</span>
               </Button>
             </ProjectContent>

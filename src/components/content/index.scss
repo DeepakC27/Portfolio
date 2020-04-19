@@ -174,9 +174,16 @@
       }
       .project-wrapper {
         width: 100%;
+        display: flex;
+        padding-left: 5rem;
         .project-preview {
           width: 40%;
           max-width: 400px;
+          div {
+            height: 100%;
+            width: 100%;
+            border: 2px solid black;
+          }
         }
         .project-info {
           width: 60%;
@@ -229,6 +236,7 @@
       display: flex;
       .about-section_image {
         width: 40%;
+        max-width: 380px;
         div {
           height: 200px;
           width: 200px;
@@ -260,7 +268,7 @@
           border: 2px solid black;
           border-radius: 5px;
           margin-right: 10%;
-          box-shadow: 12px 12px 10px rgba(228, 223, 223, 0.41);
+          box-shadow: 12px 12px 10px rgba(23, 22, 22, 0.52);
           transform: rotateY(0deg);
           &::before{
             content: '';
@@ -272,6 +280,7 @@
             top: 0.5px;
             right: -7px;
             transform: skewY(45deg);
+            background: white;
           }
           &::after{
             content: '';
@@ -282,6 +291,7 @@
             position: absolute;
             bottom: -7px;
             transform: skewX(45deg);
+            background: white;
           }
           .imageBox{
             height: 100%;

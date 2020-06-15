@@ -13,18 +13,6 @@ import './index.scss'
 const Content = () => {
   return (
     <div className='main-content-wrapper'>
-      <div className='right-sidebar marquee-sidebar'>
-        <marquee direction='up'>
-          R<br/>
-          e<br/>
-          t<br/>
-          a<br/>
-          r<br/>
-          d<br/>
-          e<br/>
-          d
-        </marquee>
-      </div>
       <section className='intro-section'>
         <div className='section-heading'>
           <div className='text1'>
@@ -46,8 +34,13 @@ const Content = () => {
           Shortly after graduating from VJTI, I joined the engineering team at Servify where I work on a wide variety of interesting and meaningful projects on a daily basis.
         </SectionContent>
         <div>
-          <Button className='btn-outline'>
+          <Button className='btn-outline mt10'>
             <span>Get in touch</span>
+          </Button>
+          <Button className='new-Framework-btn btn-outline mt10' onClick={() => {
+              window.location.href = 'https://deepakc.netlify.app/'
+            }}>
+            <span>New Design</span>
           </Button>
         </div>
         <br />

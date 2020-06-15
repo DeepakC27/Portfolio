@@ -3,9 +3,9 @@ import './index.scss'
 
 function SectionContent(props) {
   return (
-    <p className={'section-content-wrapper ' + (props.className ? props.className : '')}>
+    <div className={'section-content-wrapper ' + (props.className ? props.className : '')}>
       {props.children}
-    </p>
+    </div>
   )
 }
 

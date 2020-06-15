@@ -34,7 +34,7 @@ function Header() {
       </div>
       <nav className='navbar fixed-top dark-mode'>
         <div id='nav-light-icon' className='dark-mode'>☼</div>
-        <a className='navbar-brand dark-mode' href='#'><img src={logo} alt='logo' /></a>
+        <a className='navbar-brand dark-mode' href='#'>D/C</a>
         <ul className='nav justify-content-end overlay-content'>
           {headerTabs.map((tab, index) =>
             <li key={index} className='nav-item'>

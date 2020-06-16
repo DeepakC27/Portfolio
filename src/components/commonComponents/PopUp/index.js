@@ -11,8 +11,8 @@ export const PopUp = (props) => {
           <h5 className='modal-title'>New Design in progress</h5>
         </div>
         <div className='modal-body'>
-          Have moved on creating a new static webApp with different layout.
-          New one is still in progress, still layout & content desgin can be viewed.
+          Currently working on new design. With focus of adding animations & transition effects. 
+          Building components individually in vanilla JS.
          </div>
         <div className='modal-footer'>
           <Button className='btn-outline' onClick={props.newWebRedirection}>

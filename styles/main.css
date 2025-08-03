@@ -392,7 +392,7 @@ nav .nav-item {
 }
 .timeline-card {
   background: var(--card-background-color);
-  height: fit-content;
+  height: 100%;
   box-shadow: 0 0 12px 0 var(--light-grey);
 }
 .timeline-card > div {
